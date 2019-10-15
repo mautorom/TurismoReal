@@ -70,8 +70,7 @@
 
 		<div class="row page-header">
 			<div class="col-lg-12">
-				<h2 class="text text-center">Encontrar disponibilidad de
-					reservas</h2>
+				<h2 class="text text-center">Encontrar disponibilidad de reservas</h2>
 				<form class="form-inline" action="#" method="post">
 					<div class="form-group">
 						<label for="region">Región: </label> <select id="region"
@@ -81,35 +80,15 @@
 						</select> &nbsp; <label for="fecha_in">Fecha Check-in: </label>
 						<div class="form-group">
 							<div>
-								<input data-date-format="dd/mm/yyyy" id="datepickerIn"
-									width="auto">
+								<input class="form-control" type="date" required>
 							</div>
 						</div>
-						<script type="text/javascript">		
-		
-  						     $('#datepickerIn').datepicker({ 						    
- 						        weekStart: 1,
-						        daysOfWeekHighlighted: "6,0",
- 						        autoclose: true,
- 						        todayHighlight: true,
- 						    });			    
-  						    $('#datepickerIn').datepicker("setDate", new Date());
-						</script>
 						&nbsp; <label for="fecha_out">Fecha Check-out: </label>
 						<div class="form-group">
 							<div>
-								<input data-date-format="dd/mm/yyyy" id="datepickerOut">
+								<input class="form-control" type="date" required>
 							</div>
 						</div>
-						<script type="text/javascript">						
-						    $('#datepickerOut').datepicker({
-						        weekStart: 1,
-						        daysOfWeekHighlighted: "6,0",
-						        autoclose: true,
-						        todayHighlight: true,
-						    });
-						    $('#datepickerOut').datepicker("setDate", new Date());
-						</script>
 						&nbsp; <label for="n_adultos">N° Adultos: </label> <select
 							id="adultos" name="adultos" class="form-control">
 							<option value="1">1</option>
@@ -149,8 +128,7 @@
 							class="label label-default">Campo 3</span>
 					</h4>
 					<p>
-						<a class="btn btn-sm btn-primary" href="detalle" role="button">Consulta
-							Horarios &raquo;</a>
+						<a class="btn btn-sm btn-primary" href="detalle" role="button">Ver Detalles&raquo;</a>
 					</p>
 				</div>
 
@@ -164,8 +142,7 @@
 							class="label label-default">Campo 3</span>
 					</h4>
 					<p>
-						<a class="btn btn-sm btn-primary" href="detalle" role="button">Consulta
-							Horarios &raquo;</a>
+						<a class="btn btn-sm btn-primary" href="detalle" role="button">Ver Detalles&raquo;</a>
 					</p>
 				</div>
 
@@ -180,8 +157,7 @@
 							class="label label-default">Campo 3</span>
 					</h4>
 					<p>
-						<a class="btn btn-sm btn-primary" href="detalle" role="button">Consulta
-							Horarios &raquo;</a>
+						<a class="btn btn-sm btn-primary" href="detalle" role="button">Ver Detalles&raquo;</a>
 					</p>
 				</div>
 
