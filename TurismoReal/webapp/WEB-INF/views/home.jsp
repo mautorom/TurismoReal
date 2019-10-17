@@ -111,7 +111,7 @@
 				<h2 class="text text-center">Ofertas disponibles</h2>
 			</div>
 		</div>
-
+		
 		<!-- Marketing messaging -->
 		<div class="container marketing">
 
@@ -163,6 +163,17 @@
 
 			</div>
 
+		</div>
+		
+		<div class="row page-header">
+			<div class="col-lg-12">
+				<h2 class="text text-center">Desde el servicio</h2>
+				<br>
+				<c:forEach items="${lista}" var="vlista">
+					<i><p>"${vlista.direccionDepto}"</p></i>
+					
+				</c:forEach>
+			</div>
 		</div>
 		<jsp:include page="includes/footer.jsp" />
 
